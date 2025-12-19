@@ -29,3 +29,4 @@ yarn-error.log*
 
 # Bun pack artifacts
 packages/*/*.tgz
+.env
