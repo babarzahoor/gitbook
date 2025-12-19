@@ -80,6 +80,13 @@ export default function TeamPage() {
                 <span className="text-lg font-semibold text-gray-900 dark:text-white">{team.name}</span>
               </div>
             </div>
+            <Link
+              href={`/teams/${slug}/members`}
+              className="flex items-center gap-2 px-4 py-2 text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg"
+            >
+              <Users className="w-4 h-4" />
+              <span>Members</span>
+            </Link>
           </div>
         </div>
       </nav>
